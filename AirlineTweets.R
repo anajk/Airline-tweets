@@ -152,3 +152,4 @@ data_test_pred2 <- predict(data_classifier2, data_test)
 CrossTable(data_test_pred2, data_test_labels,
            prop.chisq = FALSE, prop.t = FALSE, prop.r = FALSE,
            dnn = c('predicted', 'actual'))
+
